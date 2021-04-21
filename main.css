@@ -32,14 +32,21 @@ a:visited {
 .container {
   width: 100%;
   height: auto;
-  background-color: gray;
+  background-color: #f1f1f1;
   padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.container .video {
-  max-width: 110rem;
-  height: 40rem;
-  background-color: #3f3f3f;
-  margin: 0 auto;
+.container .card {
+  width: 20rem;
+  margin-left: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
