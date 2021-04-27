@@ -53,6 +53,10 @@ a:visited {
   width: 58rem;
 }
 
+.container .second-card {
+  width: 40rem;
+}
+
 .container .card {
   width: 28rem;
   margin-left: 2rem;
