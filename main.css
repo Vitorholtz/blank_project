@@ -20,13 +20,70 @@ body {
 }
 
 html {
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Globotipo Rounded', sans-serif;
   font-size: 62.5%;
 }
 
 a,
 a:visited {
   color: inherit;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background: #2ee6ff;
+  background: linear-gradient(79deg, #2ee6ff 0%, #01b7ff 6%, #0ea7ff 14%, #5e4eff 69%, #7e2bff 86%, #a42bff 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  border-radius: 0 0 10rem 10rem;
+}
+
+header .hero-description {
+  width: 48rem;
+  line-height: 1.2;
+  color: white;
+}
+
+header .hero-description h1 {
+  font-size: 4.2rem;
+  margin-bottom: 2rem;
+}
+
+header .hero-description p {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  width: 42rem;
+  margin-bottom: 2rem;
+}
+
+header .hero-description button {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 60px;
+  background-color: white;
+  border: none;
+  color: #990099;
+  margin-right: 2rem;
+}
+
+header .hero-img {
+  width: 60rem;
+}
+
+header .globo-outline {
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
 }
 
 .container {

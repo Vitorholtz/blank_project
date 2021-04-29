@@ -1,3 +1,65 @@
+header{
+ 
+    width: 100vw;
+    height: 100vh;
+    background: rgb(46,230,255);
+    background: linear-gradient(79deg, rgba(46,230,255,1) 0%, rgba(1,183,255,1) 6%, rgba(14,167,255,1) 14%, rgba(94,78,255,1) 69%, rgba(126,43,255,1) 86%, rgba(164,43,255,1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+    border-radius:  0 0 10rem 10rem;
+
+    .hero-description {
+
+        width: 48rem;
+        line-height: 1.2;
+        color: white;
+
+        h1 {
+
+            font-size: 4.2rem;
+            margin-bottom: 2rem;
+        }
+
+        p {
+
+            font-size: 2.2rem;
+            line-height: 1.4;
+            width: 42rem;
+            margin-bottom: 2rem;
+        }
+
+        button {
+
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 1rem;
+            border-radius: 60px;
+            background-color: white;
+            border: none;
+            color: rgb(153, 0, 153);
+            margin-right: 2rem;
+        }
+    }
+
+    
+
+    .hero-img {
+
+        width: 60rem;
+    }
+
+    .globo-outline {
+
+        position: absolute;
+        top: -2rem;
+        left: -2rem;
+    }
+}
+
 .container {
 
     max-width: 80rem;
