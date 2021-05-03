@@ -68,12 +68,21 @@ header .hero-description p {
 header .hero-description button {
   font-size: 2rem;
   font-weight: bold;
-  padding: 1rem;
+  font-family: 'Globotipo Rounded';
+  padding: 1.2rem 3rem;
   border-radius: 60px;
   background-color: white;
   border: none;
-  color: #990099;
+  color: #4D05EB;
   margin-right: 2rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+header .hero-description button:hover {
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
 }
 
 header .hero-img {

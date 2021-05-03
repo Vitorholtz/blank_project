@@ -36,12 +36,20 @@ header{
 
             font-size: 2rem;
             font-weight: bold;
-            padding: 1rem;
+            font-family: 'Globotipo Rounded';
+            padding: 1.2rem 3rem;
             border-radius: 60px;
             background-color: white;
             border: none;
-            color: rgb(153, 0, 153);
+            color: #4D05EB;
             margin-right: 2rem;
+            transition: .3s;
+            cursor: pointer;
+            
+            &:hover {
+
+                transform: translateY(-.1rem);
+            }
         }
     }
 
