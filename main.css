@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Globotipo Rounded';
+  src: url(fonts/globo.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +72,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  font-family: 'Globotipo Rounded';
 }
 
 @media only screen and (max-width: 800px) {
