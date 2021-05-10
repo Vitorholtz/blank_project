@@ -1,7 +1,13 @@
 @font-face {
-    font-family: 'globo';
-    src: url('/fonts/globo.ttf') format('ttf')
-         url('/fonts/globold.ttf') format('ttf');
+    font-family: 'Globotipo Rounded';
+    src: url(fonts/globo.ttf);
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Globotipo Rounded';
+    src: url(fonts/globold.ttf);
+    font-weight: bold;
   }
 
 * {
@@ -30,7 +36,7 @@ body {
 
 html {
 
-    font-family: 'globo', sans-serif;
+    font-family: 'Globotipo Rounded', sans-serif;
 }
 
 a,
