@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Globotipo Rounded';
-  src: url(fonts/globo.ttf);
+  src: url(fonts/globold.ttf) url(fonts/globo.ttf);
 }
 
 * {
