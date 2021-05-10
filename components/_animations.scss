@@ -1,0 +1,29 @@
+@keyframes appearBottom {
+
+    from {transform: translateY(100px); opacity: 0;}
+    to {transform: translateY(0px);  opacity: 1;}
+}
+
+@keyframes bgfade {
+
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fromBottom {
+
+    from {transform: translateY(100%) rotate(-65deg); bottom: -100%;}
+    to {transform: translateY(0) rotate(0deg); bottom: 0;} 
+}
+
+@keyframes fromleft {
+
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);} 
+}
+
+@keyframes appearTop {
+
+    from {transform: translateY(-100px); opacity: 0;}
+    to {transform: translateY(0px);  opacity: 1;}
+}

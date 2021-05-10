@@ -1,0 +1,86 @@
+.ornament1 {
+
+    width: 36px;
+    height: 8px;
+    background-color: rgb(111, 0, 255);
+    border-radius: 1rem;
+    margin: 0 auto;
+    transform: translateY(3px);
+
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    border-radius:  0 50px 0 50px;
+    position: relative;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: bgfade 1s ease-in-out;
+    animation-fill-mode: forwards;
+
+
+    .bg{
+
+        width: 100%;
+
+    }
+
+    .cellphone {
+        position: absolute;
+        right: 0;
+        bottom: -100%;
+        width: 31%;
+        animation: fromBottom 2s ease-in-out;
+        animation-fill-mode: forwards;
+
+
+        @media only screen and (max-width: 1400px) {
+
+            width: 40%;
+
+        }
+
+        @media only screen and (max-width: 1000px) {
+
+            width: 55%;
+
+        }
+    }
+    
+
+    .tag {
+
+       width: 600px;
+       position: absolute;
+       top: 100px;
+       left: 100px;
+       animation: fromleft 1s ease-in-out;
+
+
+    @media only screen and (max-width: 1400px) {
+
+        width: 400px;
+
+    }
+
+    }
+}
+
+.ornament2 {
+
+    width: 36px;
+    height: 8px;
+    background-color: rgb(111, 0, 255);
+    border-radius: 1rem;
+    margin: 0 auto;
+    transform: translateY(-5px);
+    z-index: -1;
+
+}
