@@ -1,11 +1,10 @@
 .ornament1 {
 
     width: 36px;
-    height: 8px;
+    height: 6px;
     background-color: rgb(111, 0, 255);
-    border-radius: 1rem;
+    border-radius: 20px 20px 0 0 ;
     margin: 0 auto;
-    transform: translateY(3px);
 
 }
 
@@ -16,7 +15,7 @@
     width: 100%;
     height: 800px;
     overflow: hidden;
-    border-radius:  0 50px 0 50px;
+    border-radius:  0 100px 0 100px;
     position: relative;
     background-image: url("img/slider-bg1.jpg");
     background-repeat: no-repeat;
@@ -52,28 +51,41 @@
 
         }
 
+        @media only screen and (max-width: 600px) {
+
+            width: 75%;
+
+        }
+
+        @media only screen and (max-width: 460px) {
+
+            width: 100%;
+            right: -60px;
+
+        }
+
         &.cellphone1 {
 
-            animation-delay: 0s;
+            animation-delay: -1s;
 
         }
 
         &.cellphone2 {
             
-            animation-delay: 8s;
+            animation-delay: 7s;
 
         }
 
         &.cellphone3 {
 
-            animation-delay: 16s;
+            animation-delay: 15s;
 
         }
     }
     
 
     .tag {
-
+     
        width: 600px;
        position: absolute;
        top: 100px;
@@ -81,21 +93,22 @@
        animation: fromleftSlider 24s ease-in-out infinite;
        animation-fill-mode: backwards;
 
+
        &.tag1 {
 
-        animation-delay: 0s;
+        animation-delay: -1s;
 
        }
 
        &.tag2 {
 
-        animation-delay: 8s;
+        animation-delay: 7s;
 
        }
 
        &.tag3 {
 
-        animation-delay: 16s;
+        animation-delay: 15s;
 
        }
 
@@ -106,17 +119,27 @@
 
     }
 
+    @media only screen and (max-width: 1000px) {
+
+        left: 20px;
+
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        width: 280px;
+
+    }
+
     }
 }
 
 .ornament2 {
 
     width: 36px;
-    height: 8px;
+    height: 6px;
     background-color: rgb(111, 0, 255);
-    border-radius: 1rem;
+    border-radius: 0 0 20px 20px;
     margin: 0 auto;
-    transform: translateY(-5px);
-    z-index: -1;
 
 }
