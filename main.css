@@ -558,18 +558,18 @@ h2 {
 }
 
 .slider .cellphone.cellphone1 {
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .slider .cellphone.cellphone2 {
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
 .slider .cellphone.cellphone3 {
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
 }
 
 .slider .tag {
@@ -584,18 +584,18 @@ h2 {
 }
 
 .slider .tag.tag1 {
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .slider .tag.tag2 {
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
 .slider .tag.tag3 {
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -999,42 +999,94 @@ footer .footer-animation {
 @-webkit-keyframes sliderBg {
   28% {
     background-image: url("img/slider-bg1.jpg");
+    opacity: 1;
   }
-  38% {
+  32% {
+    background-image: url("img/slider-bg1.jpg");
+    opacity: 1;
+  }
+  33% {
+    background-image: url("img/slider-bg1.jpg");
+    opacity: 0;
+  }
+  33% {
     background-image: url("img/slider-bg2.jpg");
+    opacity: 1;
   }
   56% {
     background-image: url("img/slider-bg2.jpg");
+    opacity: 1;
   }
-  66% {
-    background-image: url("img/slider-bg3.jpg");
+  64% {
+    background-image: url("img/slider-bg2.jpg");
+    opacity: 1;
   }
-  90% {
+  65% {
+    background-image: url("img/slider-bg2.jpg");
+    opacity: 0;
+  }
+  65% {
     background-image: url("img/slider-bg3.jpg");
+    opacity: 1;
+  }
+  98% {
+    background-image: url("img/slider-bg3.jpg");
+    opacity: 1;
+  }
+  100% {
+    background-image: url("img/slider-bg3.jpg");
+    opacity: 0;
   }
   100% {
     background-image: url("img/slider-bg1.jpg");
+    opacity: 1;
   }
 }
 
 @keyframes sliderBg {
   28% {
     background-image: url("img/slider-bg1.jpg");
+    opacity: 1;
   }
-  38% {
+  32% {
+    background-image: url("img/slider-bg1.jpg");
+    opacity: 1;
+  }
+  33% {
+    background-image: url("img/slider-bg1.jpg");
+    opacity: 0;
+  }
+  33% {
     background-image: url("img/slider-bg2.jpg");
+    opacity: 1;
   }
   56% {
     background-image: url("img/slider-bg2.jpg");
+    opacity: 1;
   }
-  66% {
-    background-image: url("img/slider-bg3.jpg");
+  64% {
+    background-image: url("img/slider-bg2.jpg");
+    opacity: 1;
   }
-  90% {
+  65% {
+    background-image: url("img/slider-bg2.jpg");
+    opacity: 0;
+  }
+  65% {
     background-image: url("img/slider-bg3.jpg");
+    opacity: 1;
+  }
+  98% {
+    background-image: url("img/slider-bg3.jpg");
+    opacity: 1;
+  }
+  100% {
+    background-image: url("img/slider-bg3.jpg");
+    opacity: 0;
   }
   100% {
     background-image: url("img/slider-bg1.jpg");
+    opacity: 1;
   }
 }
 
