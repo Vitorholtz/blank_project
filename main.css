@@ -403,18 +403,14 @@ h2 {
   display: block;
   width: 240px;
   margin: 80px auto;
-  -webkit-animation: appearTop 1s ease-in-out;
-          animation: appearTop 1s ease-in-out;
+  -webkit-animation: appearTop 2s ease-in-out;
+          animation: appearTop 2s ease-in-out;
 }
 
 .como-funciona__container {
   max-width: 1200px;
   margin: 180px auto 300px auto;
   position: relative;
-  -webkit-animation: appearBottom 1s ease-in-out;
-          animation: appearBottom 1s ease-in-out;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
 }
 
 @media only screen and (max-width: 600px) {
@@ -435,6 +431,11 @@ h2 {
           justify-content: space-between;
   gap: 20px;
   padding: 0 80px;
+  display: none;
+  -webkit-animation: appearBottom 2s ease-in-out;
+          animation: appearBottom 2s ease-in-out;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 @media only screen and (max-width: 800px) {
@@ -486,7 +487,7 @@ h2 {
 .como-funciona__container .globo-outline-gray {
   width: 300px;
   position: absolute;
-  bottom: -724px;
+  bottom: -940px;
   left: -370px;
 }
 
@@ -667,9 +668,7 @@ h2 {
 .instructions .instructions__container {
   max-width: 1200px;
   gap: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
